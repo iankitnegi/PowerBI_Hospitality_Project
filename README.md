@@ -1,1 +1,5 @@
-# PowerBI_Hospitality_Project
+# Problem Statement  
+AtliQ Grands, a prominent player in the Indian hospitality industry with over 20 years of experience and multiple five-star hotels, is currently facing a significant decline in market share and revenue within the luxury/business hotel category. This downturn is attributed to strategic moves by competitors and ineffective decision-making within the management team. To counteract this trend and regain their competitive edge, AtliQ Grands' managing director has decided to incorporate "Business and Data Intelligence" into their strategy. However, the lack of an in-house data analytics team poses a challenge in extracting actionable insights from their historical data. Therefore, AtliQ Grands' revenue management team has decided to engage a third-party service provider to leverage data analytics for informed decision-making and to drive revenue growth. The primary objective is to identify key factors contributing to the decline, optimize pricing strategies, enhance customer satisfaction, and ultimately restore AtliQ Grands' market position in the luxury/business hotel segment.    
+
+# 1. ASK  
+Revenue Management Team    
