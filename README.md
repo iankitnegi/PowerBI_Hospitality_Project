@@ -1,7 +1,7 @@
 # Problem Statement  
 AtliQ Grands, a prominent player in the Indian hospitality industry with over 20 years of experience and multiple five-star hotels, is currently facing a significant decline in market share and revenue within the luxury/business hotel category. This downturn is attributed to strategic moves by competitors and ineffective decision-making within the management team. To counteract this trend and regain their competitive edge, AtliQ Grands' managing director has decided to incorporate "Business and Data Intelligence" into their strategy. However, the lack of an in-house data analytics team poses a challenge in extracting actionable insights from their historical data. Therefore, AtliQ Grands' revenue management team has decided to engage a third-party service provider to leverage data analytics for informed decision-making and to drive revenue growth. The primary objective is to identify key factors contributing to the decline, optimize pricing strategies, enhance customer satisfaction, and ultimately restore AtliQ Grands' market position in the luxury/business hotel segment.    
 
-# 1. ASK  
+## 1. ASK  
 Revenue Management Team    
 
 ### Task:  
@@ -11,7 +11,7 @@ You are a data analyst who has been provided with sample data and a mock-up dash
 - Create relevant insights that are not provided in the metric list/mock-up dashboard.
 
 
-# 2. PREPARE
+## 2. PREPARE
 ### Data Storage:
 The public dataset is completely available on the Code basis website platform where it stores and consolidates all available datasets for analysis. The specific individual datasets at hand can be obtained at this link below: https://codebasics.io/challenge/codebasics-resume-project-challenge
 
@@ -19,7 +19,7 @@ The public dataset is completely available on the Code basis website platform wh
 The dataset is taken from the AtliQ. Thanks to the AtliQ for providing datasets for public access which is a great learning asset - feel free to explore them. This dataset contains 5 csv file, 1 text file (meta_data) & mock_up_dashboard.  
 
 
-# 3. PROCESS
+## 3. PROCESS
 ### Tools Used:
 - Microsoft Excel
 - Power BI
@@ -70,7 +70,7 @@ Column Description for fact_bookings:
 12. revenue_realized: This column represents the final amount of money that goes to the hotel based on booking status. If the booking status is cancelled, then 40% of the revenue generated is deducted and the remaining is refunded to the customer. If the booking status is Checked Out/No show, then full revenue generated will goes to hotels.
 
 
-# 4. ANALYZE
+## 4. ANALYZE
 Data Analyzing  
 Power BI was used to analyze data.
 
@@ -112,7 +112,7 @@ Power BI was used to analyze data.
 | 26   | DSRN WoW change %         | To get the DSRN(Daily Sellable Room Nights) change percentage week over week. Here, revcw for current week, revpw for previous week. | DSRN WoW change % = Var selv = IF(HASONEFILTER(dim_date[wn]), SELECTEDVALUE(dim_date[wn]), MAX(dim_date[wn])) var revcw = CALCULATE([DSRN], dim_date[wn]=selv) var revpw=CALCULATE([DSRN],FILTER(ALL(dim_date),dim_date[wn]= selv-1)) return DIVIDE(revcw,revpw,0)-1 | dim_date |
 
 
-
+## 5. SHARE  
 
 
 
